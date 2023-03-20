@@ -1,0 +1,344 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Added this body element to fix background color  */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+/* Start of the styling the header section */
+
+.header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #353437;
+    display: block;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    background-color: white;
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Added nav element here to address the links in this section which were previously in div*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+
+nav {
+    display: block;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.heading {
+    padding: 40px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+}
+.heading h3 {
+    float: right;
+    background-color: #2a607c;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.section p, .section a {
+    line-height: 1.5;
+    color: #2a607c;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+/* styling for title on left hand sides*/
+
+
+.Title1 {
+    /*Ubackground-color: #024e76;
+
+    justify-content: space-between;
+    align-items: center;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: #024e76 ;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    border-right: #024e76 solid 3px;
+  }
+
+ /* items in the about me and contact me section*/
+  .content {
+    display: inline-block;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    justify-content: space-around;
+    width: 90%;
+  }
+
+  .section {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+  /* styling for work title on left hand side*/
+
+
+.Title2
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: #024e76 ;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    height: 1250px;
+  }
+    /* styling for content inside work section*/
+
+.content2 {
+         justify-content: space-around;
+        align-items: center;
+        margin: 0 auto 0 auto;
+        width: 90%;
+        border-left: #024e76 solid 3px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto 0 auto;
+        width: 90%;
+        border-left: #024e76 solid 3px;
+}
+
+/*--work section font styling*/
+.content2 p {
+    opacity: 85%;
+width: 45%;
+position: absolute;
+bottom: 10%;
+left: 0%;
+display: inline-block;
+text-align: start;
+background-color: rgb(0, 130, 139);
+
+}
+/* main proj section 2 styling -----------------------------*/
+.top-project {
+    align-items: center;
+    margin: 0 auto 0 auto;
+    height: 650px;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+/* smaller Projects Section Styling ------------------*/
+.smaller-projects {
+    align-items: center;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+}
+
+/* Main Project Image Styling ----------------*/
+.Surf-Report {
+    width: 100%;
+    height: 600px;
+    margin: 0 1% 2% 1%;
+    border: #024e76 5px solid;
+    position: relative;
+    background-size: cover;
+}
+.Surf-Report:hover {
+    opacity: 85%;
+}
+
+/* LED Wall Image Styling ------------------*/
+.LED-Wall {
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: #024e76 5px solid;
+    position: relative;
+    background-size: cover;
+    width: 47.5%;
+
+}
+/* LED Wall Hover Styling --------------------*/
+.LED-Wall:hover {
+    opacity: 80%;
+}
+
+/* Calculator Image Styling -----------------*/
+.Calculator {
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border: #024e76 5px solid;
+    position: relative; 
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+
+}
+
+/* Calculator Hover Styling */
+.Calculator:hover {
+    opacity: 80%;
+}
+
+/* Pastel Puzzle Hover Styling ------------------*/
+.Pastel-Puzzles:hover {
+    opacity: 75%;
+}
+
+/* Pastel Puzzle Image Styling */
+.Pastel-Puzzles {
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: #024e76 5px solid;
+    position: relative; 
+    background-size: cover;
+    width: 47.5%;
+
+}
+
+
+/* Run Buddy Image Styling ------------------*/
+.Run-Buddy {
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border: #024e76 5px solid;
+    position: relative; 
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+
+}
+
+/* Run Buddy Hover Styling */
+.Run-Buddy:hover {
+    opacity: 75%;
+}
+
+/* end of main section styling/*
+  
+  /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+  /* @media screen and (min-width: 768px) { */
+    /* on tablets, set columns to only be 50% of the width and not grow */
+    /* .card-column {
+      flex: 0 0 50%;
+      max-width: 50%;
+    } */
+  
+    /* select the last child to grow to full width if it has space to grow */
+    /* .card-column:last-child {
+      flex-grow: 1;
+    }
+  } */
+  
+  /* media query for larger screens */
+  /* @media screen and (min-width: 992px) {
+    header {
+      width: 100%;
+    } */
+  
+    /* .card-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  } */
+
+  
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .section-title {
+    width: 95%;
+  }
+
+  .section p {
+    width: 100%;
+  }
+}
+
+  @media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-title {
+        width: 20%;
+    }
+}

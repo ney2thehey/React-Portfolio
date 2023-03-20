@@ -1,0 +1,113 @@
+/* class's used */
+  
+  /* faqheader */
+  /* howtoheader */
+  /* innerheader */
+  /* innerpar */
+
+  /* * {
+
+    box-sizing: border-box;
+    font-family: arial;
+    
+} */
+/* 
+body {
+
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-image: url('./assets/big12logo.png');
+    background-position: center;
+    background-size: 30%;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+  
+} */
+
+
+.bgImage {
+    background-color: #BF5700;
+}
+
+.faqContainer {
+  
+  border-style: solid;
+  border-color: #333f48;
+  background-color: #ffffff;
+  color: #bf5700;
+  border-width: 3px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 60px;
+  margin-top: 0px;
+  
+  display: flex;
+  height: auto;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.faqHeader {
+
+  display: flex;
+  flex: 1;
+  color: maroon;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.faqHeader-FAQ {
+  font-size: 3.3rem;
+  margin: 10px;
+}
+
+
+.innerHeader{
+  display: flex;
+  flex: 1;
+  font-size: 2.5rem;
+  padding-right: 35px;
+}
+
+.howToContainer{
+  display: flex;
+  flex: 1;
+  color: maroon;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+
+}
+.innerPar{
+  display: flex;
+  flex: 1;
+  color: maroon;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  line-height: 1.7em;
+}
+
+
+.innerHeader{
+
+}
+
+.ytVideo {
+  
+}
+
+
+
+/* Medium screens */
+@media all and (min-width: 600px) {
+  /* We tell both sidebars to share a row */
+  .aside { flex: 1 auto; }
+}
