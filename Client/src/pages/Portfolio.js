@@ -21,7 +21,7 @@ function Portfolio() {
         <div className="top-project">
           <div className="Surf-Report">
             <p>
-              <a href="#Surf-Report">Surf Report</a>
+              <a href="#Surf-Report">Scorarama</a>
               <br />
               <font size="-0.5">MERN-Stack Web Application</font>
             </p>
@@ -41,7 +41,7 @@ function Portfolio() {
 
           <div className="Calculator">
             <p>
-              <a href="#Calculator">Calculator</a>
+              <a href="#Calculator">CineMe</a>
               <br />
               <font size="-0.5">React/JavaScript/CSS</font>
             </p>
@@ -49,7 +49,7 @@ function Portfolio() {
 
           <div className="Pastel-Puzzles">
             <p>
-              <a href="#Pastel-Puzzles">Pastel Puzzles</a>
+              <a href="#Pastel-Puzzles">Scorarama</a>
               <br />
               <font size="-0.5">MERN stack</font>
             </p>
@@ -57,7 +57,7 @@ function Portfolio() {
 
           <div className="Run-Buddy">
             <p>
-              <a href="#Run-Buddy">Run Buddy</a>
+              <a href="#Run-Buddy">Ex proj</a>
               <br />
               <font size="-0.5">HTML/CSS</font>
             </p>

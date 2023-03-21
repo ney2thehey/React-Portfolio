@@ -4,6 +4,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 // Comopnents Section
 import Navbar from './components/Navbar';
+import Footer from './pages/Footer';
 
 //// Pages Section
 // import Home from './pages/Home';
@@ -53,6 +54,7 @@ function App() {
             
    
     </Switch>
+    <Footer />
    </Router>
    </ApolloProvider>
     </>

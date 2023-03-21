@@ -19,9 +19,9 @@ function About() {
 
       <section id="about-me" className="section">
       <div className="Title1">
-        <div>
+        {/* <div>
           <h2>About Me</h2>
-        </div>
+        </div> */}
       </div>
 
       <div className="content">
